@@ -1,0 +1,426 @@
+$primary: rgb(37, 37, 39);
+$secondary: rgb(216, 224, 224);
+$btn-padding-y: 5px;
+$btn-padding-x: 25px;
+
+//layout of home
+
+.me-auto{
+    font-size: 20px;
+}
+
+.footer{
+    border:0px #f1139c;
+}
+
+//login page
+.cont-1{
+    border:0px solid rgb(247, 243, 14);
+    height: 800px;
+    width:1000px;
+
+}
+
+
+.login-image{
+    max-height:1000px ;
+    min-height: 1000px;
+    min-width: 1500px;
+    max-width: 1500px;
+}
+
+.register-box {
+    max-width: 450px;
+    min-width: 450px;
+    min-height: 750px;
+    max-height: 759px;
+
+    padding: 30px 30px;
+    margin: 100px auto;
+    background-color: $primary;
+    border: 0px solid #eb6913;
+}
+
+.login-box {
+    max-width: 450px;
+    min-width: 450px;
+    min-height: 730px;
+    max-height: 730px;
+
+    padding: 30px 30px;
+    margin: 100px auto;
+    background-color: $primary;
+    border: 0px solid #411ea0;
+}
+
+//home page
+
+.category-name {
+    padding-top: 50px;
+    padding-left: 25px;
+    font-size: 40px;  
+}
+.cart-name{
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 30px;
+}
+
+.pi {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+}
+
+html,
+body {
+    background-color: #ece5e5 !important;
+}
+
+
+.cont-1-home {
+    border: 0px solid #000;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 4350px;
+    min-height: 800px;
+    max-height: 800px;
+    max-width: 1350px;
+    min-width: 1350px; 
+}
+
+.cont-2-home {
+    
+    border: 0px solid #8b1414;
+    padding-top: 70px;
+    padding-left: 25px;
+    display: 'flex';
+    min-width: 550px; 
+    max-width: 550px; 
+    min-height: 2000px; 
+    max-height: 2000px;     
+}
+
+.first-column {
+    max-width: 100px;
+    min-width: 100px;   
+}
+
+.midle-column {
+    max-width: 220px;
+    min-width: 220px;
+}
+
+.last-column {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.sticky-div {
+    position: fixed; 
+}
+
+.card{
+    max-width: '14rem';
+    min-width: '14rem';
+    max-height: '520px';
+    min-height: '520px';
+}
+
+.cl-btn{
+    max-width: 8px;
+    min-width: 8px;
+    max-height: 8px;
+    min-height: 8px;
+}
+
+
+//help page
+
+.div-help{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.help-bottom{
+    padding-bottom: 100px;
+}
+//Acc detail page
+
+.acc-detail-list{
+    font-size: 20px;
+    padding-top: 10px;
+    width: 600px;
+}
+
+.acc-page{
+    padding-left: 200px;
+   
+    max-width: 700px;
+}
+
+.acc-page-head{
+    padding-left: 330px;
+
+}
+
+.UserUpdateForm{
+    width: 800px;
+    padding-left: 230px;
+    padding-top: 20px;
+}
+
+.user-edit-label{
+    font-size: 25px;
+}
+
+.form-control-edit{
+    height: 50px;
+}
+
+
+//------------------1600 px laptop size devices--------------------------------------------------------------------------------------------------------------
+
+@media screen and (max-width: 1600px) {
+
+    //login pages
+    .cont-1{
+        border:0px solid rgb(79, 16, 180);
+        height: 800px;
+        width:1000px;
+        
+    }
+
+
+    .register-box {
+        border: 0px solid #a5fc05;
+        max-width: 380px;
+        min-width: 380px;
+        min-height: 700px;
+        max-height: 700px;
+        margin: 50px auto;
+        padding: 5px 15px;
+        background-color: $primary;
+    }
+
+    .login-box {
+        border: 0px solid #344219;
+        max-width: 380px;
+        min-width: 380px;
+        min-height: 630px;
+        max-height: 630px;
+        margin: 50px auto;
+
+        padding: 5px 15px;
+        background-color: $primary;
+    }
+
+    .login-image{
+        max-height:800px ;
+        min-height: 800px;
+        min-width: 1160px;
+        max-width: 1160px;
+    }
+
+    //home page
+    
+    .cont-1-home {
+        border: 0px solid #300bd6;
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 3800px;
+        min-width: 1120px; 
+        max-width: 1120px; 
+        min-height: 3950px; 
+        max-height: 3950px;
+    }
+
+    .cont-2-home {
+        border: 0px solid #1ea050;
+        display: 'flex';
+        padding-left: 15px;
+        min-width: 390px; 
+        max-width: 390px; 
+        min-height: 1000px; 
+        max-height: 1000px;
+    }
+
+    .first-column {
+        min-width: 80px;
+        max-width: 80px;
+        
+    }
+    .midle-column {
+        min-width: 150px;
+        max-width: 150px;
+    }
+    .last-column {
+        min-width: 100px;
+        max-width: 100px;
+    }
+
+    .sticky-div {
+        position: fixed;
+        top: 3; /* Stick to the top of the screen */
+        left: 7; /* Stick to the left side of the screen */
+    }
+
+    .cart-name{
+        padding-top: 30px;
+    } 
+
+}
+
+
+//------------------1280 px laptop size devices----------------------------------------------------------------------------------------------------------
+
+@media screen and (max-width: 1280px) {
+
+    //login pages
+    .cont-1{
+        border:0px solid rgb(247, 243, 14);
+        height: 800px;
+        width:1000px;
+        
+    }
+
+
+    .register-box {
+        border: 0px solid #88ce05;
+        max-width: 350px;
+        min-width: 350px;
+        min-height: 700px;
+        max-height: 700px;
+        margin: 50px auto;
+        padding: 5px 15px;
+        background-color: $primary;
+    }
+
+    .login-box {
+        border: 0px solid #88ce05;
+        max-width: 350px;
+        min-width: 350px;
+        min-height: 630px;
+        max-height: 630px;
+        margin: 50px auto;
+
+        padding: 5px 15px;
+        background-color: $primary;
+    }
+
+    .login-image{
+        max-height:800px ;
+        min-height: 800px;
+        min-width: 950px;
+        max-width: 950px;
+    }
+
+    //home page
+    
+    .cont-1-home {
+        border: 0px solid #300bd6;
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 3800px;
+        min-width: 870px; 
+        max-width: 870px; 
+        min-height: 3950px; 
+        max-height: 3950px;
+    }
+
+    .cont-2-home {
+        border: 0px solid #1ea050;
+        display: 'flex';
+        padding-left: 15px;
+        min-width: 390px; 
+        max-width: 390px; 
+        min-height: 1000px; 
+        max-height: 1000px;
+    }
+
+    .first-column {
+        min-width: 80px;
+        max-width: 80px;
+        
+    }
+    .midle-column {
+        min-width: 150px;
+        max-width: 150px;
+    }
+    .last-column {
+        min-width: 100px;
+        max-width: 100px;
+    }
+
+    .sticky-div {
+        position: fixed;
+        top: 3; /* Stick to the top of the screen */
+        left: 7; /* Stick to the left side of the screen */
+    }
+
+    .cart-name{
+        padding-top: 30px;
+    }       
+}
+
+
+//-----------------------------phone size devices--------------------------------------------------------------------------------------------------------------
+@media screen and (max-width: 425px) {
+
+    //login pages
+    .cont-1{
+        border:0px solid rgb(105, 23, 34);
+        min-height: 851px;
+        max-height: 851px;
+        max-width: 400px;
+        min-width: 400px;
+    }
+    .register-box {
+        border: 0px solid #88ce05;
+        max-width: 350px;
+        min-width: 350px;
+        min-height: 700px;
+        max-height: 700px;
+        margin: 50px auto;
+
+        padding: 5px 15px;
+        background-color: $primary;
+    }
+
+    .login-box {
+        border: 0px solid #88ce05;
+        max-width: 350px;
+        min-width: 350px;
+        min-height: 630px;
+        max-height: 630px;
+        margin: 50px auto;
+        padding: 5px 15px;
+        background-color: $primary;
+        position: relative;
+    }
+
+    .login-image{
+        max-height:851px ;
+        min-height: 851px;
+        max-width:400px ;
+        min-width: 400px;
+    }
+
+    .cont-1-home {
+        min-width: 360px;
+        max-width: 360px;
+        border: 1px solid #000; 
+    }
+    
+    .cont-2-home {   
+        border: 1px solid #000;
+        padding-left: 10px;
+        padding-top: 17px;
+        position: fixed;
+    }
+
+}
+
+
+/* The following line can be included in a src/App.scss */
+@import '~bootstrap/scss/bootstrap';
