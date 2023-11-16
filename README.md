@@ -5,16 +5,16 @@ A web-based platform that provides a better interface for registering and loggin
 ## Screenshots
 
 ![Screenshot 1](Demo_photos/1.png)
-*Caption for Screenshot 1*
+*Register page*
 
 ![Screenshot 1](Demo_photos/3.png)
-*Caption for Screenshot 1*
+*Home page*
 
 ![Screenshot 1](Demo_photos/4.png)
-*Caption for Screenshot 1*
+*Ordering books*
 
 ![Screenshot 1](Demo_photos/5.png)
-*Caption for Screenshot 1*
+*User account*
 
 
 ## Installation
@@ -63,4 +63,4 @@ Before setting up the project, ensure you have the following prerequisites insta
 - MySQL Database: The application uses a MySQL database to store book and user information.
 
 
-    __________Enjoy using my Online Book Store!_____________
+    __________Enjoy using my Online Book Store!________
